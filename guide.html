@@ -6,14 +6,136 @@
 <title>Send It User Guide</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<style>
+  .shot {
+    width: 100%; max-width: 320px; border-radius: 18px;
+    border: 1px solid #E5E1D9; display: block; margin: 1em auto 1.5em;
+  }
+  @media (prefers-color-scheme: dark) { .shot { border-color: #2D333D; } }
+  @media (min-width: 640px) {
+    .pair { display: flex; gap: 16px; align-items: flex-start; }
+    .pair .shot { max-width: 300px; margin: 1em 0 1.5em; }
+  }
+  h2 { margin-top: 2.4em; }
+</style>
 </head>
 <body>
 <nav><img src="icon.png" alt=""><a href="index.html">Send It</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></nav>
 
-<h1>User guide</h1>
-<p>Coming soon.</p>
-<p>Until it is here, <a href="support.html">support</a> answers the most
-common questions, and <a href="mailto:jeff@loboz.com">jeff@loboz.com</a>
-answers the rest.</p>
+<p class="eyebrow">User guide</p>
+<h1>How Send It works</h1>
+
+<p>Send It tracks a job search the way it actually happens: postings you
+mean to apply to, applications working their way through interviews, and
+the follow-ups that keep things moving. Everything lives on your phone
+and in your own iCloud. This guide walks the whole app; if you would
+rather just start, save one posting and the app will show you the rest.</p>
+
+<h2>Save your first posting</h2>
+<p>From Safari or any browser, tap the share button on a job posting and
+choose <strong>Send It</strong>. The role title, the link, and the text
+of the posting are captured together, so the record survives even after
+the employer takes the posting down.</p>
+<p>You can also add one by hand: the <strong>+</strong> button on the
+Pipeline tab. Only a title is required. Everything else can come later.</p>
+
+<h2>The pipeline</h2>
+<img class="shot" src="guide-images/02-pipeline.png" alt="The Pipeline screen with applications grouped by status">
+<p>Every application sits at one of six stages on the way up: Saved,
+Applied, Screening, Interviewing, Offer, Accepted. There are also four
+ways out: Rejected, Withdrawn, Ghosted, and Declined. The pipeline
+groups your applications by stage so you can see the whole climb at a
+glance.</p>
+<p><strong>Saved matters.</strong> It is the wishlist stage, for postings
+you intend to apply to. Give one a deadline and Send It reminds you
+before it closes.</p>
+<p>To move an application, open it and tap <strong>Update status</strong>.
+The app offers only moves that make sense from where you are. Tapped the
+wrong one? The same control offers <strong>Move back</strong>. The
+history keeps both entries, so the record always says what really
+happened.</p>
+<p>Swiping a row left <strong>archives</strong> it. Nothing is ever
+deleted: archived applications are whole, and the Filters sheet brings
+them back with one switch.</p>
+<p>The search field matches titles, employers, and notes. The filter
+button narrows by priority, source, or work mode.</p>
+
+<h2>Today</h2>
+<img class="shot" src="guide-images/01-today.png" alt="The Today screen with interviews, tasks, deadlines, and suggestions">
+<p>Today answers one question: what needs you now. Upcoming interviews,
+tasks due, deadlines approaching, and applications that have gone quiet
+all surface here. When there is nothing, it says so, and that is a real
+answer.</p>
+<p><strong>Worth doing</strong> is the app making suggestions: follow up
+on an application that has been quiet, apply before a deadline closes,
+answer an offer. Suggestions are only ever offers. Accept one and it
+becomes a task; decline it and it stays gone. The app never changes
+anything on its own.</p>
+
+<h2>Interviews</h2>
+<div class="pair">
+<img class="shot" src="guide-images/04-interviewing-detail.png" alt="An application with two interview rounds">
+<img class="shot" src="guide-images/interview-round-debrief.png" alt="A completed interview round with debrief">
+</div>
+<p>Interviews are rounds, because a real process has several. Each round
+holds its own schedule, the people you meet, your prep notes and the
+questions you want to ask, and afterward, what they asked and how it
+went. Write the debrief the same day; future you will be glad.</p>
+<p>A round's result keeps an honest distinction: <strong>Waiting to hear
+back</strong> means an answer is still expected. <strong>No result
+recorded</strong> means the process ended and nobody said anything.
+Those are different facts and the app never confuses them.</p>
+<p><strong>Add to Calendar</strong> puts a round on your calendar, with
+your permission. After an interview passes, Send It offers a thank-you
+note task; marking one sent records the date.</p>
+
+<h2>Employer replies</h2>
+<p>When an employer writes or calls, log it on the application:
+<strong>Log a response</strong>. If it arrived a few days ago, set the
+arrival date so your numbers stay honest. Replies show right on the
+record and feed the response rate in Insights.</p>
+
+<h2>Contacts</h2>
+<img class="shot" src="guide-images/contacts.png" alt="The Contacts tab">
+<p>Recruiters, hiring managers, and referrals live on the Contacts tab.
+Link a contact to an application, or add one as the interviewer on a
+round. <strong>Import from Contacts</strong> pulls a name, phone, and
+email straight from your phone's address book; the app sees only the
+person you pick.</p>
+
+<h2>Attachments</h2>
+<p>Any application can hold files: your resume, an offer letter, an
+employment agreement, whatever the process produces. Attach from the
+Files picker, rename them to whatever makes sense, and view them right
+in the app. Attachments sync with everything else.</p>
+
+<h2>Insights</h2>
+<img class="shot" src="guide-images/05-insights.png" alt="The Insights screen with funnel and response rate">
+<p>Insights answers questions with your own data: where your
+applications are, how many you send each week, how often employers
+respond, how far each source gets you. Every number states its
+denominator, and when there is not enough data to say something, the
+screen says that instead of pretending. A response rate only counts the
+replies you log, so log them.</p>
+
+<h2>Your data</h2>
+<img class="shot" src="guide-images/settings.png" alt="The Settings screen">
+<p>Everything is saved on your device the moment you enter it. If your
+device is signed into iCloud, Send It syncs to your private iCloud so a
+new phone picks up where you left off; Settings shows you plainly
+whether sync is set up. There are no accounts and no servers of ours.</p>
+<p><strong>Export everything</strong> in Settings produces CSV and JSON
+files of your whole search, yours to keep anywhere.</p>
+
+<h2>Privacy on your own phone</h2>
+<p>A job search is sensitive, especially while employed. Two switches in
+Settings are built for that: <strong>Lock with Face ID</strong> covers
+the app whenever you leave it, and <strong>discreet notifications</strong>
+keep employer names off your lock screen. Both are per-device choices
+and never sync.</p>
+
+<h2>Questions</h2>
+<p>The <a href="support.html">support page</a> covers common ones, and
+<a href="mailto:jeff@loboz.com">jeff@loboz.com</a> answers the rest.</p>
 </body>
 </html>
